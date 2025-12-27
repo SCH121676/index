@@ -113,13 +113,14 @@ p {
 
 /* Small screen polish */
 @media (max-width: 480px) {
-    body {
-        padding: 20px;
-    }
-
     .card {
-        animation-duration: 4s;
+        width: 92vw;
+        height: 70vh;        /* ⬅️ THIS makes it bigger */
+        max-height: none;   /* remove the cap */
+        padding: 8vw 6vw;
     }
 }
+
+
 
 
