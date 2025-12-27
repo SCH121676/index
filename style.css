@@ -24,10 +24,9 @@ body {
 .card {
     background: linear-gradient(145deg, #ffd6e8, #ffb3c6);
 
-    /* ⬆️ Increased size */
-    width: min(90vw, 360px);
-    height: min(130vw, 480px);
-    max-height: 480px;
+    /* Desktop size */
+    width: 360px;
+    height: 480px;
 
     border-radius: 24px;
     box-shadow: 
@@ -35,11 +34,12 @@ body {
         0 0 30px rgba(255, 105, 180, 0.75);
 
     text-align: center;
-    padding: 9vw 6vw;
+    padding: 32px 24px;
     cursor: pointer;
     animation: float 3s ease-in-out infinite;
     position: relative;
 }
+
 
 
 /* Heart */
@@ -121,4 +121,5 @@ p {
         animation-duration: 4s;
     }
 }
+
 
