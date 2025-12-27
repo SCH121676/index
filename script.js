@@ -1,3 +1,4 @@
+
 function beat() {
     const card = document.querySelector('.card');
     card.classList.add('beat');
